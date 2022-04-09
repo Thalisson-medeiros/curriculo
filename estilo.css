@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    height: 80px;
+    display: block;
+    width: 802px;
+    background-color: #03045e;
+    color: white;
+    margin: 0 auto;
+}
+
+header > h2 {
+    padding: 26px 0px 0px 10px;
+    font-size: 1.2em;
+}
+
+header > #links {
+    float: right;
+    width: 265px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+#links > a {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+
+header > #links > a {
+    color: white;
+    text-decoration: none;
+}
+
+div.clear {
+    clear: both;
+}
+
+#principal {
+    width: 800px;
+    margin: 0 auto;
+    color: #03045e;
+    background-color: white;
+    border: 1px solid #03045e;
+    
+}
+
+.cabecalho {
+    font-size: 18px;
+    padding: 10px 0px 10px 10px;
+    color: #03045e;
+}
+
+#habilidades {
+    font-size: 14px;
+    padding: 10px 0px 10px 10px;
+}
+
+.lista {
+    font-size: 14px;
+    padding: 0px 0px 10px 10px;
+    list-style-type: none;
+}
+
+.lista_projeto {
+    font-size: 14px;
+    padding: 0px 0px 10px 30px;
+    background-color: #03045e;
+    color: white;
+    padding: 10px;
+    width: 600px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sub_cabecalho {
+    font-size: 15px;
+    padding-left: 10px;
+} 
+
+.lista_projeto > li > p {
+    padding: 10px;
+}
+
+.linkprojeto {
+    text-decoration: none;
+    color: lightblue;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+
+    header {
+        width: 90.5%;
+    }
+
+    #principal {
+
+        width: 90%;
+    }
+
+    .lista_projeto {
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px){
+
+    header {
+        width: 90.5%;
+    }
+
+    #principal {
+
+        width: 90%;
+    }
+
+    .lista_projeto {
+        width: 90%;
+    }
+
+}
